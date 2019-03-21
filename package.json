@@ -1,0 +1,28 @@
+{
+  "name": "earn-a-build-passing-badge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/healeycodes/earn-a-build-passing-badge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/healeycodes/earn-a-build-passing-badge/issues"
+  },
+  "homepage": "https://github.com/healeycodes/earn-a-build-passing-badge#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "jest": "^24.5.0",
+    "supertest": "^4.0.2"
+  }
+}
