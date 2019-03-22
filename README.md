@@ -12,7 +12,13 @@ The result of that build will affect the Build Status badge you see at the top t
 
 <br>
 
+`npm i` will install all of the dependancies. The rest of the application - how to run and test it - is explained below.
+
+<br>
+
 #### app.js
+
+This contains our application routes and logic.
 
 ```javascript
 const express = require('express');
@@ -27,6 +33,8 @@ module.exports = app;
 
 #### server.js
 
+`npm start` will run this file, running the application.
+
 ```javascript
 const app = require('./app');
 const port = 3000;
@@ -37,6 +45,8 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 <br>
 
 #### app.test.js
+
+Here are our tests for Jest to run when `npm test` is called.
 
 ```javascript
 const app = require('../app');
@@ -54,6 +64,8 @@ describe('GET /', () => {
 <br>
 
 #### .travis.yml
+
+This file tells Travis CI [how to setup testing](https://docs.travis-ci.com/user/customizing-the-build/) for the repository. Make sure you've installed Travis CI as a GitHub App and toggled on repository permissions.
 
 ```yml
 language: node_js
