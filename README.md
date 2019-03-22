@@ -4,7 +4,7 @@
 
 <br>
 
-This repo contains the are the files for my tutorial on continuous intregration with Jest, Express, and Travis CI.
+This repo contains the are the files for [my tutorial](https://healeycodes.github.io/javascript/webdev/github/beginners/2019/03/15/build-passing-badge.html) on continuous intregration with Jest, Express, and Travis CI.
 
 It also serves as a live example! Whenever there is a commit to `master`, Travis CI will queue up a new test build.
 
