@@ -12,7 +12,7 @@ The result of that build will affect the Build Status badge you see at the top t
 
 <br>
 
-`npm i` will install all of the dependancies. The rest of the application - how to run and test it - is explained below.
+`npm i` will install all of the dependencies. The rest of the application — how to run and test it — is explained below.
 
 <br>
 
