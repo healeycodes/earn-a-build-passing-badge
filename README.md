@@ -6,9 +6,7 @@
 
 This repo contains the are the files for my tutorial on continuous intregration with Jest, Express, and Travis CI.
 
-It also serves as a live example!
-
-Whenever there is a commit to `master`, Travis CI will queue up a new test build.
+It also serves as a live example! Whenever there is a commit to `master`, Travis CI will queue up a new test build.
 
 The result of that build will affect the Build Status badge you see at the top there. If the build fails, I will get an email too.
 
