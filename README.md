@@ -2,6 +2,8 @@
 
 ### Earn a Build Passing Badge on GitHub ✅! Testing Your Express App with Travis CI
 
+<br>
+
 This repo contains the are the files for my tutorial on continuous intregration with Jest, Express, and Travis CI.
 
 It also serves as a live example!
